@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+
+	margin:0;
+	padding:0;
+	border:0;
+	list-style: none;
+	font-family: "Poppins", sans-serif;
+
+}
+
+body {
+	
+ 	background-color: #1B2029;
+	color:white;
+	
+	display:center;
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+a{
+
+	text-decoration: nome;
+	color: white;
+}
+
+.header{
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	
+}
+
+.menu{
+	display: flex;
+
+}
+
+.menu li{
+	margin-left: 10px;
+
+}
+
+.menu li a {
+ display: block;
+ padding: 10px;
+
+}
+
+img {
+	
+	max-width: 100%;
+	display: block;
+
+}
+
+h1 {
+	background-image: url('fundo.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	
+	text-align: center;
+	 margin-top: 100px;
+}
+
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+	margin: 0 auto;
+
+}
+
+.flex > div {
+	flex: 1 1 200px;
+	margin: 10px;
+
+
+}
+
+.footer {
+
+	background-color: white;
+}
